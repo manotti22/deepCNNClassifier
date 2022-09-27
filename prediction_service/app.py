@@ -1,4 +1,3 @@
-
 import streamlit as st
 from PIL import Image
 import tensorflow as tf
@@ -22,3 +21,4 @@ if uploaded_file is not None:
         st.image(image, caption="predicted: cat")
     else:
         st.image(image, caption='predicted: dog')
+      
